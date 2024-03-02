@@ -16,6 +16,18 @@ header{
     height: auto;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+h2,p{
+    color: white;
+}
+
+
+
+p{
+    width: 70%;
 }
 
 .title{ 
@@ -57,20 +69,20 @@ main{
 
 .cardsdiv{
         display: grid;
-        align-items: center;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 100px; 
-        margin: 0 auto; 
+        justify-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 30%);
+        column-gap: 10px;
+        row-gap: 60px;
+        margin-bottom: 0 auto; 
     }
 
     .card{
         display: flex;
-        flex-basis: calc(50% - 10px);
-        flex-direction: column;
+        padding-left: 20px;
         justify-content: center;
-        align-items: center;
-        width: 300px; /* Adjust the width to your desired size */
-        background-color: rgba(30, 30, 30, 1);
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        flex-direction: column;
+        width: 320px; 
+        height: 320px;
+        background-color:rgba(18, 18, 18, 1);
     }
