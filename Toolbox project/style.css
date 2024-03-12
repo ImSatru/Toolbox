@@ -6,6 +6,7 @@ body{
 a{
     text-decoration: none;
     color: white;
+    display: flex;
 
 }
 
@@ -71,7 +72,7 @@ p{
     color: rgba(189, 189, 189, 1);
 }
 
-.cardsdiv{
+    .cardsdiv{
         display: grid;
         justify-items: center;
         justify-content: center;
@@ -90,4 +91,45 @@ p{
         width: 320px; 
         height: 320px;
         background-color:rgba(18, 18, 18, 1);
+        
     }
+
+    #uicon{
+        width: 23%;
+        margin-bottom: 30px;
+        
+    }
+
+    #animateicon{
+        width: 25%;
+        margin-bottom: 40px;
+        margin-left: -15px;
+    }
+
+    #dribbleicon{
+        margin-bottom: 40px;
+
+    }
+    .figma:hover{
+        box-shadow:0 0 30px white;
+         transition:0.5s;
+        
+    }
+
+    .UI:hover{
+        box-shadow:0 0 30px rgba(39, 39, 42, 1);
+         transition:0.5s;
+        
+    }
+
+    .animate:hover{
+        box-shadow:0 0 30px rgba(70, 114, 254, 1);
+         transition:0.5s;
+    }
+    
+    .dribble:hover{
+        box-shadow:0 0 30px rgba(242, 103, 152, 1);
+        transition:0.5s;
+    }
+
+    
