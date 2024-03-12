@@ -1,4 +1,4 @@
-
+/*Body Properties*/
 body{
     background-color: rgba(15, 15, 15, 1);
 }
@@ -9,6 +9,7 @@ a{
 
 }
 
+/*Header Properties*/
 
 header{
     display: flex;
@@ -17,25 +18,7 @@ header{
     margin-left: 15px;
     margin-right: 15px;
     margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-h2,p{
-    color: white;
-}
-
-
-
-p{
-    width: 70%;
-}
-
-.title{ 
-    display: flex;
-    gap: 18px;
-    font-family: Consolas;  
-    color:white;
-
+    margin-bottom: 10px;
 }
 
 #pagetitle{
@@ -47,24 +30,45 @@ p{
     margin-top:45px;
 }
 
-.github{
+
+
+.title{ 
     display: flex;
-    gap:7px;
-    font-family: Consolas;
+    gap: 18px;
+    font-family: Consolas;  
+    color:white;
 
 }
 
-#githubicon{
+
+/*github name/icon Poperties*/
+
+#githubicon, #githubname{
     margin:auto
     
 }
+    .github{
+        display: flex;
+        gap:7px;
+        font-family: Inter; 
+        font-size: 15px
 
-#githubname{
-    margin: auto;
+
 }
 
-main{
-    width: auto;
+/*Cards Properties*/
+
+h2{
+    color: white;
+    font-family: Inter;
+}
+
+
+p{
+    width: 70%;
+    margin-top: -10px;
+    font-family: Consolas;
+    color: rgba(189, 189, 189, 1);
 }
 
 .cardsdiv{
@@ -78,10 +82,11 @@ main{
     }
 
     .card{
-        display: flex;
-        padding-left: 20px;
-        justify-content: center;
+        display:flex;
         flex-direction: column;
+        justify-content: end;
+        padding-left: 30px;
+        padding-bottom: 30px;
         width: 320px; 
         height: 320px;
         background-color:rgba(18, 18, 18, 1);
