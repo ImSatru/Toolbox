@@ -116,19 +116,35 @@ p{
         
     }
 
+    .figma:not(:hover){
+        transition:0.5s;
+    }
+
     .UI:hover{
         box-shadow:0 0 30px rgba(39, 39, 42, 1);
          transition:0.5s;
         
     }
 
+    .UI:not(:hover){
+        transition:0.5s;
+    }
+
     .animate:hover{
         box-shadow:0 0 30px rgba(70, 114, 254, 1);
          transition:0.5s;
     }
+
+    .animate:not(:hover){
+        transition:0.5s;
+    }
     
     .dribble:hover{
         box-shadow:0 0 30px rgba(242, 103, 152, 1);
+        transition:0.5s;
+    }
+
+    .dribble:not(:hover){
         transition:0.5s;
     }
 
