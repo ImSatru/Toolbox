@@ -14,6 +14,7 @@ a{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
     margin-left: 15px;
@@ -35,6 +36,7 @@ header{
 
 .title{ 
     display: flex;
+    flex-wrap: wrap;
     gap: 18px;
     font-family: Consolas;  
     color:white;
@@ -92,6 +94,13 @@ p{
         height: 320px;
         background-color:rgba(18, 18, 18, 1);
         
+    }
+
+    #wireframe{
+        width: 30%;
+        margin-bottom: 30px;
+        margin-left: -20px;
+
     }
 
     #uicon{
